@@ -1,0 +1,23 @@
+name: asdf_gui
+version: 0.1.0
+
+authors:
+  - LolsonX <xlolsonx@gmail.com>
+
+targets:
+  asdf_gui:
+    main: src/asdf_gui.cr
+
+crystal: 1.6.2
+
+license: MIT
+
+dependencies:
+  gtk4:
+    github: hugopl/gtk4.cr
+
+development_dependencies:
+  crystalline:
+    github: elbywan/crystalline
+    branch: master
+
